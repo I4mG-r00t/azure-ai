@@ -1,0 +1,3 @@
+project_name = "azure-ai"
+environment  = "dev"
+location     = "westeurope"
