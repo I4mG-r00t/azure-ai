@@ -1,3 +1,4 @@
 project_name = "azure-ai"
 environment  = "dev"
 location     = "westeurope"
+ssh_public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAA.... your-key-comment"

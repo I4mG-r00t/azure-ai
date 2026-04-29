@@ -105,7 +105,10 @@ az group show --name rg-azure-ai-dev --output table
 
 #### 4. Create the VM 
 
-We use a kali 2026 vm for this. If you want to change the VM version first you need to check which version you would like to use 
+We use a kali 2026 vm for this. If you want to change the VM version first you need to check which version you would like to use. 
+
+**Important**
+You may need to accept the terms before using the VM anyway.
 
 ```
 az vm image list --location westeurope --all --output table | grep -i kali
