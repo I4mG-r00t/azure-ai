@@ -51,17 +51,17 @@ variable "custom_data" {
 
 variable "image_publisher" {
   type    = string
-  default = "REPLACE_ME"
+  default = "kali-linux" # replace if needed
 }
 
 variable "image_offer" {
   type    = string
-  default = "REPLACE_ME"
+  default = "kali" # replace if needed
 }
 
 variable "image_sku" {
   type    = string
-  default = "REPLACE_ME"
+  default = "kali-2026-1" # replace if needed
 }
 
 variable "image_version" {
