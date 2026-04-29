@@ -65,7 +65,9 @@ resource "azurerm_linux_virtual_machine" "operator" {
     version   = var.image_version
   }
 
-  custom_data = var.custom_data != null ? base64encode(var.custom_data) : null
+  custom_data = (
+  var.custom_data != null && trim(var.custom_data) != ""
+) ? base64encode(var.custom_data) : null
 
   tags = {
     project     = var.project_name
